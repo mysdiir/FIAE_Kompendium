@@ -66,6 +66,7 @@ Die verbauten ***Transistoren*** in einem Mikroprozessor haben eine ***Größe i
 Heutige Prozessoren sind bereits im ***5nm Bereich***.
 
 <br>
+<br>
 
 ## Mikroprozessoren
 
@@ -83,6 +84,7 @@ Ebenfalls an den Bus angeschlossen sind Controller, die die Eingabe oder Aufgabe
 Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM und ROM mit einer simplen Aufgabenverteilung.
 
 <br>
+<br>
 
 ## Aufgaben des Prozessors:
 
@@ -91,14 +93,20 @@ Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM u
 
 >In- und Output der Peripheriegeräte
 
+<br>
 
 ### Speicherzugriff:
 
 >Daten- und Programmanweisungen werden (auch Informationen der Peripherie) in der CPU zwischengelagert
 
+<br>
+
 ### Verarbeitung der Daten:
 
 >arithmetische (Addition, Subtraktion, …) oder logische (and, or, xor) Operationen werden miteinander verknüpft
+
+<br>
+<br>
 
 ## Prozessortypen
 
@@ -106,12 +114,14 @@ Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM u
 
 Gemeinsame Speicherung von Daten- und Programmanweisungen in der CPU
 
+<br>
+
 #### Vorteil
 
 > kostengünstiger
 > platzsparender
 
-
+<br>
 
 #### Nachteil
 
@@ -120,16 +130,19 @@ Gemeinsame Speicherung von Daten- und Programmanweisungen in der CPU
 
 ![237304537-3382b040-7c2b-4000-b839-ef37c83f0ae6](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/9326f356-42f5-4195-a8c7-9b39469a1ea3)
 
+<br>
 
 ### Harvard Prozessor
 
 Speicherung der Daten- und Programmanweisungen in einer jeweils einzelne, dafür vorgesehene CPU
 
-
+<br>
 
 #### Vorteil
 
 > keine Anfälligkeit für Fehlinterpretationen
+
+<br>
 
 #### Nachteil
 
@@ -138,6 +151,7 @@ Speicherung der Daten- und Programmanweisungen in einer jeweils einzelne, dafür
 > 
 ![237304539-fc3b9c57-dce4-469c-954f-bb7e02309c4a](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/18628ac0-5681-4480-9164-551cee44655e)
 
+<br>
 <br>
 
 ## Klassifizierung von Prozessoren
@@ -155,6 +169,7 @@ Unter ***Programminstruktionen*** versteht man ***arithmetisch logische Operatio
 > Sprungbefehle: unbedingt, bedingt, relativ
 > Kontrollbefehle: STOP, Unterprogrammsprung
 
+<br>
 
 ### RISC (Reduced Instruction Set Computing)
 
@@ -170,6 +185,7 @@ Besonderes:
 
 > Komplexität liegt im Compiler
 
+<br>
 
 ### CISC (Complex Instruction Set Computig)
 
@@ -185,6 +201,8 @@ Vorteil:
 Besonderes:
 
 > benötigt viel Chipfläche, Komplexität liegt in der SPU
+
+<br>
 
 ### Universal- und Spezialprozessoren
 
@@ -203,11 +221,13 @@ Grundlage zur Auswahl einer CPU gilt:
 ***Kompromiss*** zwischen ***Optimierung*** auf einen bestimmten Zweck und ***breites Spektrum*** an möglichen Anwendungen zu finden.
 
 <br>
+<br>
 
 ## Aufbau eines Prozessors
 
 ![237304551-5bbdcb51-3c19-4bc0-bcde-c2138ef71196](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/bd845db0-090e-478f-b5f6-b1cb576a8349)
 
+<br>
 
 ### Steuerwerk (blau)
 
@@ -236,6 +256,7 @@ Gesamtaufgabe wird in Teilschritte in (Mykrooperationen) aufgeteilt
 ***Programmcounter***: einfacher Zähler, der auf die nächste auszuführende Operation zuweist 
 ***Befehlsregister: Aufgaben werden gespeichert***
 
+<br>
 
 ### Register
 
@@ -247,12 +268,16 @@ Er schleust die Daten durch.
 Im ***Register*** sind ***Flip-Flop Schaltungen*** verwendet, die ***Daten zwischenspeichern*** können.
 Da Strom an sich nicht gespeichert werden kann, wird ein anderes System verwendet. Solange Strom im System vorhanden ist, wird das Datum gespeichert.
 
+<br>
+
 #### Arten von Registern
 
 ***General-Purpose-Register***: kann frei gelesen und gespeichert werden
 ***Spezialregister***: Werden für interne Funktion des Prozessors benutzt
 
 ![237304544-e5b3e683-f5e9-4e40-bb17-6cfb45580e7e](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/02758d04-48ae-4dea-9239-f8ce45c7c1bc)
+
+<br>
 
 ### Rechenwerk
 
@@ -266,6 +291,7 @@ In einem Akkumulator wird ein ***Operand*** einer vorhergehenden Operation ***ge
 ![237304550-e8dd3c02-853c-46cd-b1f4-89bc716c3f2b](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/e4462ac1-166d-4938-8b0c-2de5fe5c6b41)
 
 <br>
+<br>
 
 ## Assembler Code
 
@@ -273,6 +299,8 @@ In einem Akkumulator wird ein ***Operand*** einer vorhergehenden Operation ***ge
 
 > Code, der durch durch **mnemonische Abkürzungen** dargestellt ist.
 > Mnemonische Codes sind zugehörige Kürzel zur Identifikation von Operationen ADD, LDA etc.
+
+<br>
 
 ### Programmablauf
 
@@ -285,16 +313,22 @@ Die folgenden Beispiele werden mit einem 16 bit langem Befehlssatz verdeutlicht
 
 ![237304552-2bf666fb-3332-4072-8954-a09bebf2d8a4](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/df5bdfd6-2fd3-412b-a7ab-5d93b8fcad16)
 
+<br>
+
 #### Aufteilung in 16 bit Befehlssätze
 
 `0000001100000010` `0000001000010000` `0000000110000101` `0000001000010001` `0000000100010000` `0000001100010001` `0000001000010010` `0000011100000000`
 
 Aufteilung in einzelne Aufgabengebiete des jeweiligen Befehlssatzes
 
+<br>
+
 ### Reserviert
 
 `0000` `001100000010`			Für die ***Reserve*** werden ***4 Bit*** eingeteilt
 Hier werden bit Stellen reserviert, damit ***andere CPU-Generationen mehr OP-Code darstellen*** kann. Wird für zukünftig neue Befehle verwendet.
+
+<br>
 
 ###  Op-Code
 
@@ -304,6 +338,8 @@ Op-Code sind ***Assemblerbefehle***, die **verschiedene Funktionen** übernehmen
 
 ![237304555-20285e34-7919-41b6-982d-f8651b532b09](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/fa2dc38a-e8ab-41b7-93a0-bc7425494672)
 
+<br>
+
 ### Nummernzeichen
 
 `0000 001` `1` `00000010`			Für das Nummernzeichen wird ***1 Bit*** eingeteilt
@@ -312,6 +348,8 @@ Das Nummernzeichen entscheidet, ob es sich beim ***Operanden*** um einen ***nume
 
 ![237304557-a99fc76f-4ae7-44c5-9034-202106a1a383](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/9bf2cb1b-eefb-484a-9900-0449d92ee4ff)
 
+<br>
+
 ### Operand
 
 `0000 001 1` `00000010`			Für den Operanden werden 8 Bit eingeteilt
@@ -319,7 +357,11 @@ Das Nummernzeichen entscheidet, ob es sich beim ***Operanden*** um einen ***nume
 Wenn es eine ***Zahl*** ist, dann ist klar, dass das eine Zahl ist
 Wenn es sich hierbei um eine ***Speicheradresse***, ziehe den Inhalt der Speicheradresse rein
 
+<br>
+
 ### Interpretation des Befehlssatzes
+
+<br>
 
 #### Darstellung auf Bitebene
 
@@ -336,6 +378,8 @@ Wenn es sich hierbei um eine ***Speicheradresse***, ziehe den Inhalt der Speiche
 | reserviert       | LOAD    | numerischer Wert | 2                      |
 
 ***Ergo:*** Lade die Zahl 2
+
+<br>
 
 ### Beispielaufgabe
 
@@ -367,6 +411,7 @@ Speichere 16. Store Value im Akkumulator auf Platz 16
 >Einmal für den Assembler Code und einmal für die Zahl (als Nummer oder der Adresse)
 
 <br>
+<br>
 
 ## Stack (Stapelspeicher)
 
@@ -380,9 +425,13 @@ Der Stackpointer ist nur ein ***eigenes Register, das auf die aktuelle Adresse d
 Das Stack ist ein variabler Speicher, das heißt er ist nicht an eine maximale Größe gebunden und kann variabel mitwachsen.
 Er setzt sich auf die nächsten freien Adressen.
 
+<br>
+
 ### Subroutine
 
 Eine Subroutine ist ein Unterprogramm (eine Funktion oder ähnliches), welche variabel im Stack gespeichert und geholt werden kann.
+
+<br>
 
 ### Stackpointer Assembler Code
 
@@ -395,6 +444,9 @@ Eine Subroutine ist ein Unterprogramm (eine Funktion oder ähnliches), welche va
 | 1100    | ISP        | Erhöhe Stackpointer     | ISP      |
 | 1101    | DSP        | Verringere Stackpointer | DSP      |
 
+
+<br>
+<br>
 
 ## Interrupts
 
@@ -413,12 +465,16 @@ Bei plötzlich auftretenden Ereignissen wie Tastatureingaben können zwei Situat
 > Niedrige Prioritäten werden durch höhere Prioritäten ebenfalls interrupted
 > Treiber erstellen in der ISR die höhe der Priorität
 
+<br>
+
 ### Software-Interrupts (Traps)
 
 Traps werden von ***Steuerwerk aufgerufen*** und sind ***synchron zum Programmablauf***.
 Die Synchronisation zum Programmablauf ist deshalb wichtig, damit es ***im Takt*** der ***CPU*** ausgeführt werden kann.
 
 > Bsp.: Divided by zero: Divisionen durch 0 enthalten ein unendlich großes Ergebnis, was den RAM und die CPU überrumpeln würden. Deswegen ist eine wichtige Trap die Divided by Zero Trap, als Notstopp.
+
+<br>
 
 ### Hardware-Interrupts
 
@@ -429,12 +485,14 @@ Sie kommen deshalb von der Hardware selbst.
 > Watch-Dog Überwachung des Systems, wenn nicht rechtzeitig zurückgesetzt, dann Reboot des Systems
 > Echtzeituhr Gibt Signal wenn eine Millisekunde vorbei ist
 
+<br>
+
 ### Funktion eines Interrupts
 
 Bei Hardware-Interrupts wird ein ***Interrupt-Controller*** benötigt. Dieser hat die Aufgabe die ankommenden Interrupt Signale aufzunehmen, zu sortieren, mit einer ***ID*** (Herkunft des Interrupt-Signals) zu versehen und die ***Priorität*** des Interrupt-Signals zu ermitteln.
 Dieser Prozess nennt sich IRQ-Vektornummer
 
-
+<br>
 
 ### Ablauf eines Interrupts
 
