@@ -1,6 +1,51 @@
 # CPU
 
-[TOC]
+- [CPU](#cpu)
+  * [Einteilung der Maßeinheiten](#einteilung-der-ma-einheiten)
+  * [Mikroprozessoren](#mikroprozessoren)
+  * [Aufgaben des Prozessors:](#aufgaben-des-prozessors-)
+    + [Ansteuerung der Peripheriegeräte-Controller](#ansteuerung-der-peripherieger-te-controller)
+    + [Speicherzugriff:](#speicherzugriff-)
+    + [Verarbeitung der Daten:](#verarbeitung-der-daten-)
+  * [Prozessortypen](#prozessortypen)
+    + [Von Neumann Prozessor](#von-neumann-prozessor)
+      - [Vorteil](#vorteil)
+      - [Nachteil](#nachteil)
+    + [Harvard Prozessor](#harvard-prozessor)
+      - [Vorteil](#vorteil-1)
+      - [Nachteil](#nachteil-1)
+  * [Klassifizierung von Prozessoren](#klassifizierung-von-prozessoren)
+    + [RISC (Reduced Instruction Set Computing)](#risc--reduced-instruction-set-computing-)
+    + [CISC (Complex Instruction Set Computig)](#cisc--complex-instruction-set-computig-)
+    + [Universal- und Spezialprozessoren](#universal--und-spezialprozessoren)
+  * [Aufbau eines Prozessors](#aufbau-eines-prozessors)
+    + [Steuerwerk (blau)](#steuerwerk--blau-)
+    + [Register](#register)
+      - [Arten von Registern](#arten-von-registern)
+    + [Rechenwerk](#rechenwerk)
+  * [Assembler Code](#assembler-code)
+    + [Definition](#definition)
+    + [Programmablauf](#programmablauf)
+      - [Aufteilung in 16 bit Befehlssätze](#aufteilung-in-16-bit-befehlss-tze)
+    + [Reserviert](#reserviert)
+    + [Op-Code](#op-code)
+    + [Nummernzeichen](#nummernzeichen)
+    + [Operand](#operand)
+    + [Interpretation des Befehlssatzes](#interpretation-des-befehlssatzes)
+      - [Darstellung auf Bitebene](#darstellung-auf-bitebene)
+      - [Darstellung auf Interpretationsebene](#darstellung-auf-interpretationsebene)
+    + [Beispielaufgabe](#beispielaufgabe)
+  * [Stack (Stapelspeicher)](#stack--stapelspeicher-)
+    + [Subroutine](#subroutine)
+    + [Stackpointer Assembler Code](#stackpointer-assembler-code)
+  * [Interrupts](#interrupts)
+    + [Software-Interrupts (Traps)](#software-interrupts--traps-)
+    + [Hardware-Interrupts](#hardware-interrupts)
+    + [Funktion eines Interrupts](#funktion-eines-interrupts)
+    + [Ablauf eines Interrupts](#ablauf-eines-interrupts)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Einteilung der Maßeinheiten
 
