@@ -10,3 +10,5 @@ Gerne darf dieses Repository geforked werden, denn Wissen ist da um geteilt zu w
 ## Disclaimer
 Ich habe nach bestem Wissen versucht die Richtigkeit meiner Unterlagen zu gewährleisten, es kann aber sowohl zu inhaltlichen, als auch zu Rechtschreibfehlern hier und da kommen.
 Sollte ein Fehler entdeckt werden würde ich mich über ein neues Issue freuen, damit dieses Kompendium so richtig wie möglich ist :)
+
+Mir wäre es, der Übersicht halber, wichtig wenn die Issues nach Themengebiet - Dokument - Fehlerbeschreibung gestellt wird, damit das einfacher zuordbar ist. 
