@@ -31,7 +31,7 @@ Ein Mikroprozessor, auch ***Central Processing Unit (CPU)*** bezeichnet eine Ein
 
 
 
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155227809.png" alt="image-20220703155227809" style="zoom:67%;" />
+![237304529-9a83913e-346f-4bd5-977a-4e6b088a6453](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/81b36af9-5952-4c67-b76e-a8c0d5d26c4e)
 
 
 
@@ -42,8 +42,6 @@ Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM u
 
 
 
-
-
 ## Aufgaben des Prozessors:
 
 
@@ -51,21 +49,13 @@ Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM u
 
 >In- und Output der Peripheriegeräte
 
-
-
 ### Speicherzugriff:
 
 >Daten- und Programmanweisungen werden (auch Informationen der Peripherie) in der CPU zwischengelagert
 
-
-
 ### Verarbeitung der Daten:
 
 >arithmetische (Addition, Subtraktion, …) oder logische (and, or, xor) Operationen werden miteinander verknüpft
-
-
-
-
 
 ## Prozessortypen
 
@@ -85,10 +75,7 @@ Gemeinsame Speicherung von Daten- und Programmanweisungen in der CPU
 > anfällig für Fehlinterpretationen (Datenanweisungen werden als Programmanweisungen interpretiert und lassen große Fehler entstehen)
 > Flaschenhals Prinzip: viele Daten- und Programmanweisungen müssen über einen Datenbus.
 
-
-
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155309607.png" alt="image-20220703155309607" style="zoom:67%;" />
-
+![237304537-3382b040-7c2b-4000-b839-ef37c83f0ae6](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/9326f356-42f5-4195-a8c7-9b39469a1ea3)
 
 
 ### Harvard Prozessor
@@ -101,27 +88,18 @@ Speicherung der Daten- und Programmanweisungen in einer jeweils einzelne, dafür
 
 > keine Anfälligkeit für Fehlinterpretationen
 
-
-
 #### Nachteil
 
 > teurer
 > mehr Platz
-
-
-
-![image-20220703155322654](/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155322654.png)![imag
-
-
+> 
+![237304539-fc3b9c57-dce4-469c-954f-bb7e02309c4a](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/18628ac0-5681-4480-9164-551cee44655e)
 
 ## Klassifizierung von Prozessoren
-
-
 
 Unter einem ***Befehlssatz*** versteht man die ***Gesamtheit aller Programminstruktionen***, also einem Ansatz, um einen Mikroprozessor zu klassifizieren.
 
 Unter ***Programminstruktionen*** versteht man ***arithmetisch logische Operationen*** wie AND, SUB, NOR, XOR, etc, sowie ***Vergleichsbefehle*** und ***Shift- und Rotationsbefehle***
-
 
 
 > ***Datentransfer***
@@ -131,7 +109,6 @@ Unter ***Programminstruktionen*** versteht man ***arithmetisch logische Operatio
 > ***Steuerbefehle***
 > Sprungbefehle: unbedingt, bedingt, relativ
 > Kontrollbefehle: STOP, Unterprogrammsprung
-
 
 
 ### RISC (Reduced Instruction Set Computing)
@@ -149,9 +126,6 @@ Besonderes:
 > Komplexität liegt im Compiler
 
 
-
-
-
 ### CISC (Complex Instruction Set Computig)
 
 Ziel:
@@ -166,8 +140,6 @@ Vorteil:
 Besonderes:
 
 > benötigt viel Chipfläche, Komplexität liegt in der SPU
-
-
 
 ### Universal- und Spezialprozessoren
 
@@ -185,16 +157,9 @@ Grundlage zur Auswahl einer CPU gilt:
 
 ***Kompromiss*** zwischen ***Optimierung*** auf einen bestimmten Zweck und ***breites Spektrum*** an möglichen Anwendungen zu finden.
 
-
-
 ## Aufbau eines Prozessors
 
-
-
-
-
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155637811.png" alt="image-20220703155637811" style="zoom:67%;" />
-
+![237304551-5bbdcb51-3c19-4bc0-bcde-c2138ef71196](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/bd845db0-090e-478f-b5f6-b1cb576a8349)
 
 
 ### Steuerwerk (blau)
@@ -208,11 +173,7 @@ Steuerwerk läuft nach dem EVA Prinzip
 > Ausgabe
 > Sprungbefehl bedeutet eine neue / Teilverarbeitung eines Befehls
 
-
-
-![image-20220703155505870](/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155505870.png)
-
-
+![237304541-fbe11d64-577e-426a-9a02-d227e0814f54](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/86da6dac-0b55-446c-9240-7dcddd2b8023)
 
 Befehlsregister (***Register = Speicherzelle***) holt sich befehle aus RAM
 Befehle bestehen aus:
@@ -229,9 +190,6 @@ Gesamtaufgabe wird in Teilschritte in (Mykrooperationen) aufgeteilt
 ***Befehlsregister: Aufgaben werden gespeichert***
 
 
-
-
-
 ### Register
 
 ***MUX*** Zwischenspeicher
@@ -242,18 +200,12 @@ Er schleust die Daten durch.
 Im ***Register*** sind ***Flip-Flop Schaltungen*** verwendet, die ***Daten zwischenspeichern*** können.
 Da Strom an sich nicht gespeichert werden kann, wird ein anderes System verwendet. Solange Strom im System vorhanden ist, wird das Datum gespeichert.
 
-
-
 #### Arten von Registern
 
 ***General-Purpose-Register***: kann frei gelesen und gespeichert werden
 ***Spezialregister***: Werden für interne Funktion des Prozessors benutzt
 
-
-
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155551818.png" alt="image-20220703155551818" style="zoom:67%;" />
-
-
+![237304544-e5b3e683-f5e9-4e40-bb17-6cfb45580e7e](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/02758d04-48ae-4dea-9239-f8ce45c7c1bc)
 
 ### Rechenwerk
 
@@ -264,20 +216,14 @@ Jede Operation wird durch eine logische oder arithmetische Operation geschickt u
 ***Akkumulator***
 In einem Akkumulator wird ein ***Operand*** einer vorhergehenden Operation ***gelagert***, damit es zu einer Rechnung, einem Vergleich kommen kann. Er ist Teil innerhalb der ALU.
 
-
-
-<img src="assets/image-20220703155615114.png" alt="image-20220703155615114" style="zoom:67%;" />
+![237304550-e8dd3c02-853c-46cd-b1f4-89bc716c3f2b](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/e4462ac1-166d-4938-8b0c-2de5fe5c6b41)
 
 ## Assembler Code
-
-
 
 ### Definition
 
 > Code, der durch durch **mnemonische Abkürzungen** dargestellt ist.
 > Mnemonische Codes sind zugehörige Kürzel zur Identifikation von Operationen ADD, LDA etc.
-
-
 
 ### Programmablauf
 
@@ -288,60 +234,34 @@ Die folgenden Beispiele werden mit einem 16 bit langem Befehlssatz verdeutlicht
 `000000110000001000000010000100000000000110000101` `000000100001000100000001000100000000001100010001 00000010000100100000011100000000`
 
 
-
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155750580.png" alt="image-20220703155750580" style="zoom:67%;" />
-
-
+![237304552-2bf666fb-3332-4072-8954-a09bebf2d8a4](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/df5bdfd6-2fd3-412b-a7ab-5d93b8fcad16)
 
 #### Aufteilung in 16 bit Befehlssätze
-
-
 
 `0000001100000010` `0000001000010000` `0000000110000101` `0000001000010001` `0000000100010000` `0000001100010001` `0000001000010010` `0000011100000000`
 
 Aufteilung in einzelne Aufgabengebiete des jeweiligen Befehlssatzes
-
-
-
-
 
 ### Reserviert
 
 `0000` `001100000010`			Für die ***Reserve*** werden ***4 Bit*** eingeteilt
 Hier werden bit Stellen reserviert, damit ***andere CPU-Generationen mehr OP-Code darstellen*** kann. Wird für zukünftig neue Befehle verwendet.
 
-
-
-
-
-
 ###  Op-Code
 
 `0000` `001` `100000010`			Für en Op-Code werden ***3 Bit*** eingeteilt
 Op-Code sind ***Assemblerbefehle***, die **verschiedene Funktionen** übernehmen.
 
-![image-20220703155826164](C:\Users\mathi\OneDrive\FIA\Hardware\Computertechnik\1. CPU\assets\image-20220703155826164.png)
 
-
-
-
-
+![237304555-20285e34-7919-41b6-982d-f8651b532b09](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/fa2dc38a-e8ab-41b7-93a0-bc7425494672)
 
 ### Nummernzeichen
-
-
 
 `0000 001` `1` `00000010`			Für das Nummernzeichen wird ***1 Bit*** eingeteilt
 Das Nummernzeichen entscheidet, ob es sich beim ***Operanden*** um einen ***numerischen Wert*** oder um eine ***Adresse im Speicher*** (Inhalt von Variablen) handelt .
 
 
-
-<img src="/home/matze/Dropbox/FIA 2312/Unterricht/Hardware/Computertechnik/1. CPU/assets/image-20220703155920628.png" alt="image-20220703155920628" style="zoom:67%;" />
-
-
-
-
-
+![237304557-a99fc76f-4ae7-44c5-9034-202106a1a383](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/9bf2cb1b-eefb-484a-9900-0449d92ee4ff)
 
 ### Operand
 
@@ -349,10 +269,6 @@ Das Nummernzeichen entscheidet, ob es sich beim ***Operanden*** um einen ***nume
 ***Was wird in den Akkumulator geladen?***
 Wenn es eine ***Zahl*** ist, dann ist klar, dass das eine Zahl ist
 Wenn es sich hierbei um eine ***Speicheradresse***, ziehe den Inhalt der Speicheradresse rein
-
-
-
-
 
 ### Interpretation des Befehlssatzes
 
@@ -372,13 +288,9 @@ Wenn es sich hierbei um eine ***Speicheradresse***, ziehe den Inhalt der Speiche
 
 ***Ergo:*** Lade die Zahl 2
 
-
-
 ### Beispielaufgabe
 
 Wandeln Sie den Binärcode in Assemblercode um
-
-
 
 `000 00011 0000 01010 01`	
 `0000` `001`  `1` `0000 0101 001`	
@@ -400,44 +312,29 @@ Wandeln Sie den Binärcode in Assemblercode um
 
 Speichere 16. Store Value im Akkumulator auf Platz 16
 
-
-
 ***Note:***
 
 >Es wird für jede Operation im MUX jeweils 2 bitstellen gespeichert. 
 >Einmal für den Assembler Code und einmal für die Zahl (als Nummer oder der Adresse)
 
- 
-
-
 
 ## Stack (Stapelspeicher)
-
-
 
 Ein ***Stapel*** (***Stack***) kann nur eine bestimmte Menge von Bits aufnehmen. Es kann immer ***nur*** der ***oberste Stapel bearbeite***t werden. Dazu gibt es zwei wichtige Operationen:
 
 > Push (ablegen)
 > Pop (holen)
 
-
-
 Ein ***Stack wächst von unten nach oben***, entsprechend wird bei einem Push oder Pop Befehl der Stack größer oder kleiner.
 Der Stackpointer ist nur ein ***eigenes Register, das auf die aktuelle Adresse des zu bearbeitenden Elements im Stack zeigt.***
 Das Stack ist ein variabler Speicher, das heißt er ist nicht an eine maximale Größe gebunden und kann variabel mitwachsen.
 Er setzt sich auf die nächsten freien Adressen.
 
-
-
 ### Subroutine
 
 Eine Subroutine ist ein Unterprogramm (eine Funktion oder ähnliches), welche variabel im Stack gespeichert und geholt werden kann.
 
-
-
 ### Stackpointer Assembler Code
-
-
 
 | Op Code | Mnemonisch | Funktion                | Beispiel |
 | ------- | ---------- | ----------------------- | -------- |
@@ -449,10 +346,7 @@ Eine Subroutine ist ein Unterprogramm (eine Funktion oder ähnliches), welche va
 | 1101    | DSP        | Verringere Stackpointer | DSP      |
 
 
-
 ## Interrupts
-
-
 
 Bei plötzlich auftretenden Ereignissen wie Tastatureingaben können zwei Situationen helfen
 
@@ -469,20 +363,12 @@ Bei plötzlich auftretenden Ereignissen wie Tastatureingaben können zwei Situat
 > Niedrige Prioritäten werden durch höhere Prioritäten ebenfalls interrupted
 > Treiber erstellen in der ISR die höhe der Priorität
 
-
-
-
-
 ### Software-Interrupts (Traps)
 
 Traps werden von ***Steuerwerk aufgerufen*** und sind ***synchron zum Programmablauf***.
 Die Synchronisation zum Programmablauf ist deshalb wichtig, damit es ***im Takt*** der ***CPU*** ausgeführt werden kann.
 
 > Bsp.: Divided by zero: Divisionen durch 0 enthalten ein unendlich großes Ergebnis, was den RAM und die CPU überrumpeln würden. Deswegen ist eine wichtige Trap die Divided by Zero Trap, als Notstopp.
-
-
-
-
 
 ### Hardware-Interrupts
 
@@ -492,8 +378,6 @@ Sie kommen deshalb von der Hardware selbst.
 > Tastaturcontroller Drücken einer Taste
 > Watch-Dog Überwachung des Systems, wenn nicht rechtzeitig zurückgesetzt, dann Reboot des Systems
 > Echtzeituhr Gibt Signal wenn eine Millisekunde vorbei ist
-
-
 
 ### Funktion eines Interrupts
 
