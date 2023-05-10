@@ -14,4 +14,4 @@ Sollte ein Fehler entdeckt werden würde ich mich über ein neues Issue freuen, 
 Mir wäre es, der Übersicht halber, wichtig wenn die Issues nach Themengebiet - Dokument - Fehlerbeschreibung gestellt wird, damit das einfacher zuordbar ist. 
 
 ## Danksagungen
-Viel lieben dank an <a href="http://ecotrust-canada.github.io/markdown-toc/"> GitHub Wiki TOC Generator </a>, ohne dessen/deren Arbeit dieses Projekt wesentlich länger gedauert hätte :P9
+Viel lieben dank an <a href="http://ecotrust-canada.github.io/markdown-toc/"> GitHub Wiki TOC Generator </a>, ohne dessen/deren Arbeit dieses Projekt wesentlich länger gedauert hätte :P
