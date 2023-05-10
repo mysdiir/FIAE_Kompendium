@@ -65,7 +65,7 @@ Die verbauten ***Transistoren*** in einem Mikroprozessor haben eine ***Größe i
 
 Heutige Prozessoren sind bereits im ***5nm Bereich***.
 
-
+<br>
 
 ## Mikroprozessoren
 
@@ -82,7 +82,7 @@ Eine CPU ist durch einen Bus (nebeneinander liegende Transportleitungen) mit ein
 Ebenfalls an den Bus angeschlossen sind Controller, die die Eingabe oder Aufgabe der Peripheriegeräte übernimmt und damit die Haupt CPU entlastet.
 Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM und ROM mit einer simplen Aufgabenverteilung.
 
-
+<br>
 
 ## Aufgaben des Prozessors:
 
@@ -90,6 +90,7 @@ Controller sind „eigene Computer“, mit eigenen Mikroprozessoren, sowie RAM u
 ### Ansteuerung der Peripheriegeräte-Controller
 
 >In- und Output der Peripheriegeräte
+
 
 ### Speicherzugriff:
 
@@ -136,6 +137,8 @@ Speicherung der Daten- und Programmanweisungen in einer jeweils einzelne, dafür
 > mehr Platz
 > 
 ![237304539-fc3b9c57-dce4-469c-954f-bb7e02309c4a](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/18628ac0-5681-4480-9164-551cee44655e)
+
+<br>
 
 ## Klassifizierung von Prozessoren
 
@@ -199,6 +202,8 @@ Grundlage zur Auswahl einer CPU gilt:
 
 ***Kompromiss*** zwischen ***Optimierung*** auf einen bestimmten Zweck und ***breites Spektrum*** an möglichen Anwendungen zu finden.
 
+<br>
+
 ## Aufbau eines Prozessors
 
 ![237304551-5bbdcb51-3c19-4bc0-bcde-c2138ef71196](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/bd845db0-090e-478f-b5f6-b1cb576a8349)
@@ -259,6 +264,8 @@ Jede Operation wird durch eine logische oder arithmetische Operation geschickt u
 In einem Akkumulator wird ein ***Operand*** einer vorhergehenden Operation ***gelagert***, damit es zu einer Rechnung, einem Vergleich kommen kann. Er ist Teil innerhalb der ALU.
 
 ![237304550-e8dd3c02-853c-46cd-b1f4-89bc716c3f2b](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/e4462ac1-166d-4938-8b0c-2de5fe5c6b41)
+
+<br>
 
 ## Assembler Code
 
@@ -359,6 +366,7 @@ Speichere 16. Store Value im Akkumulator auf Platz 16
 >Es wird für jede Operation im MUX jeweils 2 bitstellen gespeichert. 
 >Einmal für den Assembler Code und einmal für die Zahl (als Nummer oder der Adresse)
 
+<br>
 
 ## Stack (Stapelspeicher)
 
