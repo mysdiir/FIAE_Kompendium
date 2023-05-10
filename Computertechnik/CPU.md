@@ -44,9 +44,6 @@
     + [Funktion eines Interrupts](#funktion-eines-interrupts)
     + [Ablauf eines Interrupts](#ablauf-eines-interrupts)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## Einteilung der Maßeinheiten
 
 
