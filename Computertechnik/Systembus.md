@@ -21,7 +21,8 @@ An diesen Bussen sind mehrere Komponenten angeschlossen.
 >Ein Systembus ist heutzutage nur noch die Verbindung von CPU und Chipsatz. Viele Bussysteme von früher werden heute direkt in die CPU eingelagert. Allgemein gibt es den klassischen Systembus nicht mehr.
 
 
-<img src="assets/image-20220703160217191.png" alt="image-20220703160217191" style="zoom:67%;" />
+![237309767-7da781ca-b2f7-4649-9708-e6644bafa1cf](https://github.com/mysdiir/FIAE_Kompendium/assets/70364903/31f84754-97a0-4d7d-8c5c-54889ac1030f)
+
 
 <br>
 <br>
