@@ -1,0 +1,84 @@
+# Netzwerkarten
+
+**Inhaltsverzeichnis**
+
+[TOC]
+
+## Grundlegende Zwecke von Netzwerken
+
+
+
+### Kommunikationsverbund: 
+
+Ein Verbund von Rechnern, die miteinander Kommunizieren und Informationen austauschen. 
+**Bsp**.: Chat, Bildertausch, Daten verschieben
+
+
+
+### Datenverbund:
+
+Server steht geografisch unabhängig vom Standort des Benutzers und kann verwendet werden
+**Bsp**.: Ich sitze Zuhause, Wikipedia steht in den USA
+
+
+
+### Funktionsverbund: 		
+
+Endgeräte oder vernetzte Rechner sind für mehrere Personen an einem zentralen Ort >verfügbar. Die Hardware >wird der Allgemeinheit zur Verfügung gestellt. Vorteile sind gesteigerte Kosteneffizienz, weniger Geräte für eine >große Menge an Benutzer.
+**Bsp**.: Drucker in einem Druckerraum eines Großraumbüros.
+
+
+
+### Lastenverbund: 
+
+Bei höherer Auslastung des Netzwerks werden die Ressourcen auf andere Server verteilt, um das >Hauptnetzwerk zu entlasten.
+**Bsp**.: Webshop hat Traffic in bestimmten Hauptzeiten (Weihnachten). Weitere Hardware wird hinzugeschaltet, >um die Erreichbarkeit des Webshops zu gewährleisten.
+Bsp.: Umverteilung der Ressourcen bei DDoS Attacken
+
+
+
+### Verfügbarkeitsverbund**: 		
+
+zweiter Rechner ist parallel am Netzwerk angeschlossen, dessen einzige Aufgabe es ist bei Ausfall des >Hauptrechners einzuspringen und den Ausfall zu kompensieren. 
+**Bsp.: Serverwartungen
+
+
+
+### Leistungsverbund: 
+
+mehrere Rechner sind gemeinsam in einem Netzwerk angeschlossen, um Aufgaben zu teilen und >zeiteffizienter als ein einzelner Rechner zu sein
+**Bsp**.: Bei Renderprozessen werden Leistungen verteilt, um das Gesamtergebnis zu gewährleisten (PC 1 Frame >1, PC 2 Frame 2, etc.)
+
+
+
+
+
+## Netzwerktypen
+
+Netzwerktypen definieren sich nach der Größe des Verwaltungsbereichs, also in welchem Maß ein Netzwerkadministrator Rechte über ein Netzwerk hat.
+
+Leistungsve
+
+### LAN
+
+*Local Area Network – Lokales Netzwerk*
+
+
+
+### MAN
+
+Metropolitan Area network
+Stadt/Ballungsgebietsverwaltung – eine Stadt hat Kontrolle über das >Netzwerk – >kommunale Dienstleistungen >/Verwaltungsleistungen, kein öffentliches Net, internes Netz, >Vernetzung der Behörden intern
+
+
+
+### WAN
+
+Wide Area Network – landesweites Netzwerk, 
+
+
+
+### GAN
+
+Global Area Network – internationales Netzwerk
+
